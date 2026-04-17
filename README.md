@@ -59,7 +59,6 @@ Imbalance handling in training:
 ## 🧭 DVC Pipeline Diagram (`dvc dag`)
 ### 📊 DVC Pipeline Diagram
 
-### 📊 DVC Pipeline Diagram
 
 ```mermaid
 graph TD
