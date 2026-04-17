@@ -59,6 +59,8 @@ Imbalance handling in training:
 ## 🧭 DVC Pipeline Diagram (`dvc dag`)
 ### 📊 DVC Pipeline Diagram
 
+### 📊 DVC Pipeline Diagram
+
 ```mermaid
 graph TD
     %% Định nghĩa các node dữ liệu (DVC)
@@ -82,19 +84,11 @@ graph TD
     evaluate --> promote
     promote --> drift
 
-    %% Định dạng màu sắc cho chuyên nghiệp
+    %% Định dạng màu sắc
     style D1 fill:#f9f,stroke:#333,stroke-width:2px
     style D2 fill:#f9f,stroke:#333,stroke-width:2px
     style promote fill:#00ff00,stroke:#333,stroke-width:4px
     style drift fill:#ff9900,stroke:#333,stroke-width:2px
-
-Use this path when you want to continue from the latest shared pipeline state instead of recomputing all stages locally.
-
-### Step 1: Clone and move to the correct branch
-```bash
-git clone https://github.com/HelcurtLordno1/MLOPs_credit_fraud_detection.git
-cd MLOPs_credit_fraud_detection
-git checkout main
 ```
 
 ### Step 2: Create and activate virtual environment
