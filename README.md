@@ -84,11 +84,7 @@ graph TD
     evaluate --> promote
     promote --> drift
 
-    %% Định dạng màu sắc
-    style D1 fill:#f9f,stroke:#333,stroke-width:2px
-    style D2 fill:#f9f,stroke:#333,stroke-width:2px
-    style promote fill:#00ff00,stroke:#333,stroke-width:4px
-    style drift fill:#ff9900,stroke:#333,stroke-width:2px
+
 ```
 
 ### Step 2: Create and activate virtual environment
